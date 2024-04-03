@@ -18,7 +18,7 @@
       </ul>
     </nav>
     <div id="app">
-      
+
       <router-view>
         <Quiz />
       </router-view>
@@ -36,7 +36,7 @@ export default {
     questions() {
       return messages;
     },
-    
+
   },
   i18n: { messages },
   components: {
@@ -70,6 +70,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   color: #252d4a;
 }
+
 nav {
   background-color: #252d4a;
   padding: 1em;
@@ -81,7 +82,7 @@ nav a {
   text-align: right;
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -93,7 +94,7 @@ li {
 }
 
 .title {
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: x-large;
   float: right;
@@ -109,12 +110,15 @@ h3,
 .message {
   text-align: center;
 }
+
 .error {
   color: red;
 }
+
 .complete {
   color: green;
 }
+
 .card {
   width: 60%;
   border: #252d4a solid;
@@ -122,6 +126,7 @@ h3,
   margin: auto;
   padding: 1em;
 }
+
 .btn {
   min-width: 50%;
   font-size: 16px;
@@ -137,6 +142,7 @@ h3,
   justify-content: flex-start;
   align-items: center;
 }
+
 .ans-btn {
   justify-content: center;
   display: flex;
