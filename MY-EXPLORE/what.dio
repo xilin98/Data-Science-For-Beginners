@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="-frazDn_IjbOs3udyXhV" name="第 1 页">
-        <mxGraphModel dx="2026" dy="2391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2525" dy="5959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -88,10 +88,10 @@
                     <mxGeometry x="360" y="130" width="120" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="choies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="354" y="130" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="370" y="130" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="354" y="165" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="370" y="160" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="edgeStyle=none;html=1;entryX=-0.03;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="18">
                     <mxGeometry relative="1" as="geometry">
@@ -103,6 +103,31 @@
                 </mxCell>
                 <mxCell id="26" value="Yes or No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="60" y="-310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="-20" as="sourcePoint"/>
+                        <mxPoint x="710" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="词云" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="827" y="240" as="sourcePoint"/>
+                        <mxPoint x="877" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1200" y="240"/>
+                            <mxPoint x="1200" y="-300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="-430" width="1320" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
